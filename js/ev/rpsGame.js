@@ -31,8 +31,7 @@ export function rpsGame() {
             disableButtons(true);
 
             setTimeout(() => {
-                //playGame(button.dataset.pick);
-                //sayHello
+                playGame(button.dataset.pick);
                 disableButtons(false);
                 isPlaying = false;
             }, randomDelay(1500, 2250));
