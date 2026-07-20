@@ -1,0 +1,55 @@
+#gallery {
+    padding: 1rem 0;
+}
+
+/* Main image area */
+#mainImg {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 18px;
+    background: #f8fafc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
+    transition: transform .45s ease, box-shadow .35s ease;
+}
+
+#mainImg:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .18);
+}
+
+/* Thumbnail grid */
+#galleryThumbs {
+    padding: .75rem;
+    background: #fafafa;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Thumbnail images */
+#galleryThumbs img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: transform .25s ease, border-color .25s ease, opacity .25s ease, filter .25s ease;
+}
+
+#galleryThumbs img:hover {
+    transform: translateY(-4px);
+    border-color: #2563eb;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, .2);
+}
+
+/* Selected thumbnail */
+#galleryThumbs img.thumb-disabled {
+    cursor: default;
+    filter: grayscale(100%);
+    opacity: .45;
+    border-color: #2563eb;
+    transform: none;
+    box-shadow: none;
+    pointer-events: none;
+}

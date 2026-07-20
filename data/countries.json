@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "continent": "Asia",
+    "currency": "Sri Lankan Rupee",
+    "population": "22 million",
+    "languages": ["Sinhala", "Tamil", "English"],
+    "religions": ["Buddhism", "Hinduism", "Christianity", "Islam"]
+  },
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "currency": "Indian Rupee",
+    "population": "1.4 billion",
+    "languages": ["Hindi", "English", "Bengali", "Tamil"],
+    "religions": ["Hinduism", "Islam", "Christianity", "Sikhism"]
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "currency": "Yen",
+    "population": "124 million",
+    "languages": ["Japanese"],
+    "religions": ["Shinto", "Buddhism"]
+  },
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "currency": "Yuan",
+    "population": "1.4 billion",
+    "languages": ["Mandarin"],
+    "religions": ["Buddhism", "Taoism", "Irreligion"]
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "currency": "Euro",
+    "population": "84 million",
+    "languages": ["German"],
+    "religions": ["Christianity", "No religion"]
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "currency": "Euro",
+    "population": "66 million",
+    "languages": ["French"],
+    "religions": ["Christianity", "Islam", "No religion"]
+  },
+  {
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "Europe",
+    "currency": "Pound Sterling",
+    "population": "68 million",
+    "languages": ["English"],
+    "religions": ["Christianity", "Islam", "Hinduism"]
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "currency": "Euro",
+    "population": "59 million",
+    "languages": ["Italian"],
+    "religions": ["Christianity"]
+  },
+  {
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "continent": "North America",
+    "currency": "US Dollar",
+    "population": "340 million",
+    "languages": ["English", "Spanish"],
+    "religions": ["Christianity", "Judaism", "Islam"]
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "currency": "Canadian Dollar",
+    "population": "41 million",
+    "languages": ["English", "French"],
+    "religions": ["Christianity", "No religion"]
+  },
+  {
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "currency": "Peso",
+    "population": "128 million",
+    "languages": ["Spanish"],
+    "religions": ["Christianity"]
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "South America",
+    "currency": "Real",
+    "population": "212 million",
+    "languages": ["Portuguese"],
+    "religions": ["Christianity"]
+  },
+  {
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "currency": "Peso",
+    "population": "46 million",
+    "languages": ["Spanish"],
+    "religions": ["Christianity"]
+  },
+  {
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "South America",
+    "currency": "Peso",
+    "population": "19 million",
+    "languages": ["Spanish"],
+    "religions": ["Christianity"]
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "currency": "Australian Dollar",
+    "population": "27 million",
+    "languages": ["English"],
+    "religions": ["Christianity", "No religion"]
+  },
+  {
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "currency": "NZ Dollar",
+    "population": "5 million",
+    "languages": ["English", "Maori"],
+    "religions": ["Christianity", "No religion"]
+  },
+  {
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "currency": "Fijian Dollar",
+    "population": "0.9 million",
+    "languages": ["English", "Fijian", "Hindi"],
+    "religions": ["Christianity", "Hinduism", "Islam"]
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "currency": "Rand",
+    "population": "63 million",
+    "languages": ["Zulu", "Xhosa", "English", "Afrikaans"],
+    "religions": ["Christianity", "Traditional beliefs", "Islam"]
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "currency": "Egyptian Pound",
+    "population": "114 million",
+    "languages": ["Arabic"],
+    "religions": ["Islam", "Christianity"]
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "currency": "Naira",
+    "population": "223 million",
+    "languages": ["English", "Hausa", "Yoruba", "Igbo"],
+    "religions": ["Islam", "Christianity"]
+  }
+]

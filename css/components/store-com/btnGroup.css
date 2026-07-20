@@ -1,0 +1,171 @@
+/* ==============================
+   PREMIUM CATEGORY FILTER BAR
+============================== */
+
+.btn-group {
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    padding:12px;
+
+    width:100%;
+
+    background:
+            linear-gradient(
+                    145deg,
+                    rgba(255,255,255,.9),
+                    rgba(245,247,250,.9)
+            );
+
+    border-radius:20px;
+
+    border:
+            1px solid rgba(0,0,0,.06);
+
+    box-shadow:
+            0 15px 35px rgba(0,0,0,.06);
+
+}
+
+
+
+/* REMOVE BOOTSTRAP GROUP JOINING */
+
+.btn-group > .btn {
+
+    border-radius:50px !important;
+
+    flex:0 0 auto;
+
+}
+
+
+
+/* BUTTON NORMAL STATE */
+
+.btn-group .btn {
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:9px 18px;
+
+    font-size:.78rem;
+
+    font-weight:750;
+
+    letter-spacing:.3px;
+
+    color:#374151;
+
+    background:#fff;
+
+    border:
+
+            1px solid rgba(0,0,0,.08);
+
+
+    transition:
+
+            transform .25s ease,
+
+            color .25s ease,
+
+            background .25s ease,
+
+            box-shadow .25s ease;
+
+}
+
+
+
+/* HOVER */
+
+.btn-group .btn:hover {
+
+    transform:translateY(-3px);
+
+    color:#fff;
+
+    background:
+
+            linear-gradient(
+                    135deg,
+                    #2563eb,
+                    #1d4ed8
+            );
+
+    border-color:transparent;
+
+
+    box-shadow:
+
+            0 10px 25px rgba(37,99,235,.3);
+
+}
+
+
+
+/* ACTIVE FILTER */
+
+.btn-group .btn.active,
+.btn-group .btn:focus {
+
+    color:#fff;
+
+    background:
+
+            linear-gradient(
+                    135deg,
+                    #111827,
+                    #000
+            );
+
+    border-color:transparent;
+
+
+    box-shadow:
+
+            0 10px 25px rgba(0,0,0,.25);
+
+}
+
+
+
+/* LITTLE CLICK EFFECT */
+
+.btn-group .btn:active {
+
+    transform:scale(.94);
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:576px){
+
+    .btn-group {
+
+        gap:8px;
+
+        padding:10px;
+
+    }
+
+
+    .btn-group .btn {
+
+        padding:8px 14px;
+
+        font-size:.7rem;
+
+    }
+
+}

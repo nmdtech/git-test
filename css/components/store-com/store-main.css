@@ -1,0 +1,163 @@
+.store-tools {
+    padding: 20px 0;
+}
+
+.store-search {
+    max-width: 400px;
+}
+
+/*
+ Premium Product Styling
+*/
+
+/* ==============================
+   COMPACT PREMIUM CARD
+============================== */
+
+.card {
+    position:relative;
+    border-radius:22px;
+}
+
+
+/* IMAGE */
+
+.product-image {
+    height:190px;
+    padding:20px;
+}
+
+
+
+/* BODY */
+
+.card-body {
+    padding:18px 22px 20px;
+}
+
+
+
+/* TITLE */
+
+.card-title {
+    font-size:1.05rem;
+    margin-bottom:3px;
+    font-weight:850;
+}
+
+
+
+/* BRAND */
+
+.text-muted {
+    font-size:.75rem;
+    margin-bottom:0;
+}
+
+
+
+/* MOVE CATEGORY BADGE TO TOP */
+
+.card .badge {
+
+    position:absolute;
+
+    top:15px;
+    left:15px;
+
+    z-index:3;
+
+    padding:5px 10px;
+
+    font-size:.62rem;
+
+    letter-spacing:.6px;
+
+    border-radius:30px;
+
+    background:
+            linear-gradient(
+                    135deg,
+                    #111827,
+                    #374151
+            );
+
+}
+
+
+
+/* DESCRIPTION */
+
+.card-text {
+
+    font-size:.82rem;
+
+    margin-top:12px;
+
+    margin-bottom:10px;
+
+    line-height:1.4;
+
+}
+
+
+
+/* PRICE */
+
+.text-success {
+
+    font-size:1.55rem;
+
+    margin:8px 0;
+
+}
+
+
+
+/* STOCK FLOATING */
+
+.card-body > p:last-of-type {
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    z-index:3;
+
+    margin:0;
+
+    padding:5px 10px;
+
+    border-radius:30px;
+
+    font-size:.62rem;
+
+    font-weight:800;
+
+    color:#047857;
+
+    background:
+            rgba(209,250,229,.9);
+
+    border:
+            1px solid rgba(16,185,129,.25);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+
+/* BUTTON */
+
+.btn-dark {
+
+    padding:11px;
+
+    font-size:.85rem;
+
+    border-radius:13px;
+
+}
