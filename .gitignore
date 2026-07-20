@@ -1,3 +1,5 @@
 .env
+.idea/
 assets/
 data/
+js/private/
